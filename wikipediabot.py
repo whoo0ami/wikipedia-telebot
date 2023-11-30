@@ -3,8 +3,8 @@ from telebot import types
 from googletrans import Translator
 import wikipedia
 
-bottoken = '6773279075:AAEINqCRNv565HmaRNSm5Y-Sw_7Q4y3xTtE'
-bot = telebot.TeleBot(bottoken)
+token = 'token'
+bot = telebot.TeleBot(token)
 translator = Translator()
 
 @bot.message_handler(commands=['start'])
